@@ -1,0 +1,6 @@
+scanner:
+	javac \
+		com/craftinginterpreters/lox/Lox.java \
+		com/craftinginterpreters/lox/Scanner.java \
+		com/craftinginterpreters/lox/Token.java \
+		com/craftinginterpreters/lox/TokenType.java
