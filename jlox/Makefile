@@ -4,3 +4,7 @@ scanner:
 		com/craftinginterpreters/lox/Scanner.java \
 		com/craftinginterpreters/lox/Token.java \
 		com/craftinginterpreters/lox/TokenType.java
+
+run_scanner:
+	java \
+		com.craftinginterpreters.lox.Lox
