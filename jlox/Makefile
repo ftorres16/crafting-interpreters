@@ -1,13 +1,15 @@
-parser:
+interpreter:
 	javac \
 		com/craftinginterpreters/lox/Lox.java \
 		com/craftinginterpreters/lox/Scanner.java \
 		com/craftinginterpreters/lox/Token.java \
 		com/craftinginterpreters/lox/Expr.java \
 		com/craftinginterpreters/lox/Parser.java \
+		com/craftinginterpreters/lox/Interpreter.java \
+		com/craftinginterpreters/lox/RuntimeError.java \
 		com/craftinginterpreters/lox/TokenType.java
 
-run_parser:
+run_interpreter:
 	java \
 		com.craftinginterpreters.lox.Lox
 
