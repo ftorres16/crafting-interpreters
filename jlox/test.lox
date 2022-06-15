@@ -1,3 +1,5 @@
+// Enclosures
+
 fun makeCounter() {
 	var i = 0;
 	fun count() {
@@ -11,3 +13,46 @@ fun makeCounter() {
 var counter = makeCounter();
 counter();
 counter();
+
+
+// Classes
+
+class DevonshireCream {
+	serveOn() {
+		return "Scones";
+	}
+}
+
+print DevonshireCream;
+
+
+// Class with methods
+
+class Bacon {
+	eat() {
+		print "Crunch crunch crunch!";
+	}
+}
+Bacon().eat();
+
+
+// Class with this
+class Cake {
+	taste() {
+		var adjective = "delicious";
+		print "The " + this.flavor + " cake is " + adjective + "!";
+	}
+}
+
+var cake = Cake();
+cake.flavor = "German chocolate";
+cake.taste();
+
+
+// Class with init
+class Foo {
+	init() {
+		return;
+	}
+}
+var foo = Foo();
