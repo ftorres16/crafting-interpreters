@@ -7,7 +7,8 @@ interpreter:
 		com/craftinginterpreters/lox/Parser.java \
 		com/craftinginterpreters/lox/Interpreter.java \
 		com/craftinginterpreters/lox/RuntimeError.java \
-		com/craftinginterpreters/lox/TokenType.java
+		com/craftinginterpreters/lox/TokenType.java \
+		com/craftinginterpreters/lox/LoxCallable.java
 
 run_interpreter:
 	java \
