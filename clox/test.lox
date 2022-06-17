@@ -7,11 +7,36 @@
 // print(fib(35));
 // print clock() - start;
 
-fun outer() {
-	var x = "outside";
-	fun inner() {
-		print x;
+// fun outer() {
+// 	var x = "outside";
+// 	fun inner() {
+// 		print x;
+// 	}
+// 	inner();
+// }
+// outer();
+
+// class Scone {
+// 	topping(first, second) {
+// 		print "scone with " + first + " and " + second;
+// 	}
+// }
+// 
+// var scone = Scone();
+// scone.topping("berries", "cream");
+
+class CoffeMaker {
+	init(coffee) {
+		this.coffee = coffee;
 	}
-	inner();
+
+	brew() {
+		print "Enjoy your cup of " + this.coffee;
+
+		// No reusing the grounds!
+		this.coffee = nil;
+	}
 }
-outer();
+
+var maker = CoffeMaker("coffee and chicory");
+maker.brew();
