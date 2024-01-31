@@ -1,3 +1,3 @@
 Crafting Interpreters course exercises.
 
-Book avialable at: craftinginterpreters.com
+Book available at: craftinginterpreters.com
